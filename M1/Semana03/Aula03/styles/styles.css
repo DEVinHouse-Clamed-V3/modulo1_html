@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    /* margin: 0;     */
+    /* margin: 0;
+    padding: 0; */
+    font-style: italic;
+    color: rgb(52, 52, 52);
+}
+
+button {
+    outline: none;
+    background-color: rgb(238, 140, 34);
+    color: white;
+}
+
+/* <h2 id="subtitulo" class="texto-azul">Subtitulo</h2> */
+/* 
+    0 - inline / style
+    1 - id
+   2 - class
+   3 - tag
+ */
+h2 {
+    color: blueviolet;
+}
+
+#subtitulo {
+    color: brown;
+}
+
+.texto-azul {
+    color: blue;
+}
+
+/* <p class="texto-verde"></p> */
+.texto-verde {
+    color: green;
+}
+
+.texto-azul {
+    color: blue;
+}
+
+.texto-vermelho {
+    color: red;
+}
+
+.texto-negrito {
+    font-weight: bold;
+}
+
+.mensagem-erro {
+    color: red;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+#enviar-form {
+    font-size: 22px;
+    border-radius: 12px;   
+}
+
+/* Estilizar TODOS os elementos dentro do form */
+/* form * {
+    width: 90px;
+    height: 45px;
+} */
+
+/* Estilizar todos os buttons dentro de input */
+form input {
+    width: 120px;
+    height: 30px;    
+}
+
+/* Estilizar todos os buttons dentro de form */
+form button {
+    width: 120px;
+    height: 30px;
+}
