@@ -1,0 +1,52 @@
+.menu {
+    background-color: lightcoral;
+}
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+    /* background-color: lightcoral;     */
+    margin: 10px 0;
+}
+
+.w-50 {
+    /* 50vw = 50% */
+    width: 50vw;
+    background-color: lightblue; 
+    /* px, em, rem, %, vw/vh */
+}
+
+.d-inline {
+    display: inline;
+    background-color: lightcoral;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    width: 300px;
+    background-color: lightblue;
+}
+
+.header {
+    background-color: rgb(48, 42, 165);
+    height: 30px;
+}
+
+.content {
+    background-color: lightcoral;
+    height: 100%;
+}
+
+.d-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    /* grid-template-rows: 50px 1fr; */
+    height: 180px;
+    width: 300px;
+    background-color: lightblue;
+}
