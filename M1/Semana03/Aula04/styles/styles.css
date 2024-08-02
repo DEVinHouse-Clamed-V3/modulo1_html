@@ -50,3 +50,19 @@
     width: 300px;
     background-color: lightblue;
 }
+
+/* .form-label {
+    font-weight: bold;
+} */
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.bg-yellow {
+    background-color: rgb(255, 196, 0);
+}
+
+.container-custom {
+    background: rgb(187, 187, 187);
+}
