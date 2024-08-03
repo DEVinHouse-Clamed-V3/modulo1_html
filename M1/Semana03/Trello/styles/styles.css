@@ -12,3 +12,20 @@
     margin-top: 30px;
 }
 
+.img-produto {
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+}
+
+.table-orange * {
+    color: white !important;
+    background: orange !important;
+}
+/* Centralizar a tabela como a imagem */
+/* 
+table {
+    max-width: 240px;
+    display: block;
+    margin: 0 auto;
+} */
