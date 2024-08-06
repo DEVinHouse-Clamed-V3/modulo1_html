@@ -1,0 +1,1 @@
+- Mostrar um exemplo como fica o footer
