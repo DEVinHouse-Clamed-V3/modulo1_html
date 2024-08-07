@@ -104,4 +104,3 @@ function calcularArea(largura, comprimento) {
 }
 const resposta = calcularArea(largura, comprimento)
 alert(resposta)
-
