@@ -43,6 +43,22 @@ switch (dia) {
 
 
 
+// Resolução exercicio aula 2
+const nome = prompt("Digite seu nome")
+
+const idade2 = parseInt(prompt("Digite sua idade"))
+
+let mensagem = ''
+
+if (idade2 >= 18 && idade < 65) { // [18, 65)
+    mensagem = 'Você é um adulto'
+} else if (idade2 < 18) { // (-inf, 18)
+    mensagem = 'Você é um adolescente ou uma criança'
+} else { // [65, +inf)
+    mensagem = 'Você é um idoso'
+}
+
+console.log(mensagem)
 
 
 
@@ -68,4 +84,24 @@ switch (dia) {
 // }
 
 // somarDoisNumeros(8, 64)
+
+
+
+function soma(numero1, numero2) {
+    console.log(numero1 + numero2)
+}
+
+soma(10, 5)
+
+
+// Calcular área de um terreno
+const largura = parseInt(prompt("Passe a largura do teu terreno:"))
+const comprimento = parseInt(prompt("Passe o comprimento do teu terreno:"))
+// largura * comprimento
+function calcularArea(largura, comprimento) {
+  const resposta = largura * comprimento
+  return resposta
+}
+const resposta = calcularArea(largura, comprimento)
+alert(resposta)
 
